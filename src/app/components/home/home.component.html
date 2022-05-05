@@ -1,0 +1,12 @@
+<div>
+    <span id="sentence" class="sentence">
+        <h1>{{currentText}}</h1>
+    </span>
+    <span [ngClass]="oneLine ? 'input-cursor': ''"></span>
+</div>
+<div class="second-line">
+    <span id="sentence" class="sentence">
+        <h1>{{textTwo}}</h1>
+    </span>
+    <span [ngClass]="oneLine ? '': 'input-cursor'"></span>
+</div>

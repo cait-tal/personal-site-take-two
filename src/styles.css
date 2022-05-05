@@ -1,1 +1,48 @@
 /* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    --text-color: #222;
+    --bkg-color: #FFFFFF;
+    --btn-txt-color: #151515;
+    --btn-bg-color:  #CFF1EF;
+}
+
+body.dark-theme {
+    --text-color: #eee;
+    --bkg-color: #151515;
+    --btn-txt-color: #301B3F;
+    --btn-bg-color: #B4A5A5;
+}
+
+body.light-theme {
+    --text-color: #222;
+    --bkg-color: #FFFFFF;
+    --btn-txt-color: #151515;
+    --btn-bg-color: #CFF1EF;
+}
+
+body.space-theme {
+    --text-color: #FF7700;
+    --bkg-color: #251D3A;
+    --btn-txt-color: #2A2550;
+    --btn-bg-color: #E04D01;
+}
+
+body.retro-theme {
+    --text-color: #F8CB2E;
+    --bkg-color: #006E7F;
+    --btn-txt-color: #EE5007;
+    --btn-bg-color: #B22727;
+}
+
+body {
+    background: var(--bkg-color);
+}

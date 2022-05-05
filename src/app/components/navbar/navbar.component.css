@@ -1,0 +1,43 @@
+.page-container {
+    height: 100%;
+    background-color: var(--bkg-color);
+}
+
+.page-content {
+    width: 90%;
+    padding-left: 5%;
+}
+
+mat-drawer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.navbar-icons {
+    padding-top: 3%;
+}
+
+/* Navbar Buttons */
+.menu-button {
+    background-color: var(--btn-bg-color);
+    border-radius: 20%;
+    border: 1px solid var(--btn-bg-color);
+    text-align: center;
+    color: var(--btn-txt-color);
+    display: inline-block;
+}
+
+.palette-brush {
+    color: var(--text-color);
+}
+
+.palette-brush:hover {
+    cursor:pointer;
+}
+
+/* Drawer */
+.drawer {
+    background-color: var(--bkg-color);
+    color: var(--text-color);
+}

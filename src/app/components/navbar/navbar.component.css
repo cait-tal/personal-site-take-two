@@ -14,9 +14,16 @@ mat-drawer-content {
     align-items: flex-start;
 }
 
-.navbar-icons {
-    padding-top: 3%;
+a {
+    text-decoration: none;
+    color: inherit;
 }
+
+.navbar-icons {
+    padding-top: 2%;
+    padding-left: 2%;
+}
+
 
 /* Navbar Buttons */
 .menu-button {

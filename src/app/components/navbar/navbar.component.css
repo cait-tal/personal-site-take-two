@@ -14,6 +14,10 @@ mat-drawer-content {
     align-items: flex-start;
 }
 
+fa-icon {
+    border: 10px solid var(--bkg-color);
+}
+
 a {
     text-decoration: none;
     color: inherit;
@@ -22,7 +26,11 @@ a {
 
 .route-link {
     font-size: 2rem;
-    border: 10px solid var(--bkg-color);
+    border: 15px solid var(--bkg-color);
+}
+
+.route-link:hover {
+    cursor: pointer;
 }
 
 .navbar-icons {

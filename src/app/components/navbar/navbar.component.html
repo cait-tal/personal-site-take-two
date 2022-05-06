@@ -7,11 +7,11 @@
                     <mat-icon class="menu-icon">menu</mat-icon>
                 </div>
             <mat-icon class="palette-brush" [matMenuTriggerFor]="menu">brush</mat-icon>
-            <mat-menu #menu="matMenu">
-                <button mat-menu-item (click)="toggleTheme('light')">Light Theme</button>
-                <button mat-menu-item (click)="toggleTheme('dark')">Dark Theme</button>
-                <button mat-menu-item (click)="toggleTheme('space')">Space Theme</button>
-                <button mat-menu-item (click)="toggleTheme('retro')">Retro Theme</button>
+            <mat-menu class="theme-menu mat-menu-class" #menu="matMenu">
+                <button class="theme-menu" mat-menu-item (click)="toggleTheme('light')">Light Theme</button>
+                <button class="theme-menu" mat-menu-item (click)="toggleTheme('dark')">Dark Theme</button>
+                <button class="theme-menu" mat-menu-item (click)="toggleTheme('space')">Space Theme</button>
+                <button class="theme-menu" mat-menu-item (click)="toggleTheme('retro')">Retro Theme</button>
             </mat-menu>
         </div>
         <div class="page-content">

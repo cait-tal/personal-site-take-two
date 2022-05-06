@@ -33,7 +33,17 @@ mat-drawer-content {
 }
 
 .palette-brush:hover {
-    cursor:pointer;
+    cursor: pointer;
+}
+
+.theme-menu {
+    background-color: var(--btn-bg-color);
+    color: var(--btn-text-color);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+::ng-deep .mat-menu-class {
+    background: var(--btn-bg-color);
 }
 
 /* Drawer */

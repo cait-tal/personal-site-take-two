@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { ApplicationRef, Component, OnInit } from '@angular/core';
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 @Component({
   selector: 'app-navbar',
@@ -10,7 +10,14 @@ export class NavbarComponent implements OnInit {
   faLinkedin = faLinkedin;
   faGithub = faGithub;
 
-  constructor() { }
+  constructor(private ref: ApplicationRef) {
+    const darkModeOn = 
+    window.matchMedia &&
+    window.matchMedia("(prefers-color-scheme: dark)").matches;
+    if(darkModeOn) {
+      document.body.classList.toggle("dark-theme");
+    }
+  }
 
   ngOnInit(): void {
   }

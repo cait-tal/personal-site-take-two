@@ -17,6 +17,12 @@ mat-drawer-content {
 a {
     text-decoration: none;
     color: inherit;
+    font-family: 'Darker Grotesque', sans-serif;
+}
+
+.route-link {
+    font-size: 2rem;
+    border: 10px solid var(--bkg-color);
 }
 
 .navbar-icons {
